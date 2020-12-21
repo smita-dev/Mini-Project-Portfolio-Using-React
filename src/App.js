@@ -1,12 +1,12 @@
 import "./css/App.css";
 import React from "react";
-import HomeDisplay from '../src/Pages/home'
+import NavBar from './Pages/navbar'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="App">
-      <HomeDisplay/>
+      <NavBar/>
     </div>
   );
 }
