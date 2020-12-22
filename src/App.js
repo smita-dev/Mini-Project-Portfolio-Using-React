@@ -1,16 +1,14 @@
-import logo from "./logo.svg";
 import "./css/App.css";
 import React from "react";
+import NavBar from './Component/navbar'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import MyCarousel from "./Component/carousels";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
+      <NavBar/>
+      <MyCarousel/>
     </div>
   );
 }
